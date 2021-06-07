@@ -31,7 +31,7 @@ module load samtools
 deeptools=/scratch/Shares/public/singularity/deeptools-3.0.1-py35_1.img
 numThreads=8
 
-# Use "alignmentSieve" to filter reads by size (<120 or >120bp)
+# Use "alignmentSieve" to filter reads by size (<150 or >150bp)
 echo "Processing file: "${queries[$SLURM_ARRAY_TASK_ID]}
 echo $(date +"[%b %d %H:%M:%S] Starting deeptools alignmentSieve...")
 
