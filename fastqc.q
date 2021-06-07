@@ -4,7 +4,7 @@
 ## Date: 23 Oct 2019 
 ##
 ## Example usage:
-## inDir=/data/atma/0_raw_fastq/control outDir=/data/atma/reports/raw_fastqc sbatch --array 0-1 fastqc.q
+## inDir=. outDir=. sbatch --array 0-1 fastqc.q
 
 # General settings
 #SBATCH -p short
